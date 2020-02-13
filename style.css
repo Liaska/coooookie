@@ -1,0 +1,21 @@
+body {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.monster {
+    width: 50%;
+    background: url("Cookie_Monster_Pointing_Right_Backat.jpg") no-repeat; 
+    background-size: 100% auto;
+    margin:5px;; 
+}
+
+.monster svg {
+    mix-blend-mode: multiply;
+}
+
+.classic {
+            fill: blue;
+        }
