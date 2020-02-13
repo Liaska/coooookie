@@ -9,7 +9,11 @@ body {
     width: 50%;
     background: url("Cookie_Monster_Pointing_Right_Backat.jpg") no-repeat; 
     background-size: 100% auto;
-    margin:5px;; 
+}
+
+@media (max-width:1000px) {
+    .monster {width: 75%;
+    }
 }
 
 .monster svg {
